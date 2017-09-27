@@ -1,0 +1,16 @@
+---
+title: Blog Practice
+author: Natalie Lenberger
+date: '2017-09-27'
+slug: blog-practice
+categories: []
+tags: []
+---
+
+This is practice for writing a blog
+ 
+Here is an example of code in a blog.
+
+```{r}
+cat("How are you?")
+```

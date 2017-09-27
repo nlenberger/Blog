@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: Blog Practice\nauthor: Natalie Lenberger\ndate: '2017-09-27'\nslug: blog-practice\ncategories: []\ntags: []\n---\n\nThis is practice for writing a blog\n \nHere is an example of code in a blog.\n\n```{r}\ncat(\"How are you?\")\n```\n",
+    "created" : 1506537049625.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3655051174",
+    "id" : "DA8F6EA2",
+    "lastKnownWriteTime" : 1506537254,
+    "last_content_update" : 1506537254930,
+    "path" : "~/Blog/content/post/2017-09-27-blog-practice.Rmd",
+    "project_path" : "content/post/2017-09-27-blog-practice.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
