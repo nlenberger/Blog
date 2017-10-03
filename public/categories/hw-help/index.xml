@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hw Help on Slim Theme Demo</title>
+    <link>/categories/hw-help/</link>
+    <description>Recent content in Hw Help on Slim Theme Demo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/hw-help/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CSC115 Ch5 HW Help</title>
+      <link>/2017/09/28/csc115-ch5-hw-help/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/09/28/csc115-ch5-hw-help/</guid>
+      <description>Before beginning this assignment we must first take care of a couple housekeeping things in R.
+First you must load the package TurtleGraphics
+library(TurtleGraphics) Exercise 1 The Problem Using the TurtleGraphics funciton write a function called ‘turtle_gon()’ that draws a regular polygon. The user should be able to specifiy the side-length and the number of sides. Usig your function draw a polygon with 12 sides, each having a length of 15 units.</description>
+    </item>
+    
+  </channel>
+</rss>

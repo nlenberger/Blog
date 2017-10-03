@@ -6,71 +6,26 @@
     <description>Recent content in Tags on Slim Theme Demo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Plot</title>
-      <link>/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Csc115</title>
+      <link>/tags/csc115/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/plot/</guid>
+      <guid>/tags/csc115/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Hw Help</title>
+      <link>/tags/hw-help/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regression</title>
-      <link>/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ssss</title>
-      <link>/tags/ssss/</link>
-      <pubDate>Wed, 23 Mar 2011 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/ssss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vvvvv</title>
-      <link>/tags/vvvvv/</link>
-      <pubDate>Wed, 23 Mar 2011 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/vvvvv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xxx</title>
-      <link>/tags/xxx/</link>
-      <pubDate>Wed, 23 Mar 2011 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/xxx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yyy</title>
-      <link>/tags/yyy/</link>
-      <pubDate>Wed, 23 Mar 2011 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/yyy/</guid>
+      <guid>/tags/hw-help/</guid>
       <description></description>
     </item>
     

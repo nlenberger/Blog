@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title> CSC115 Ch5 HW Help &middot; Slim Theme Demo </title>
+
+
+<link rel="stylesheet" href="../../../../css/slim.css">
+<link rel="stylesheet" href="../../../../css/highlight.min.css">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro' rel='stylesheet' type='text/css'>
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../../apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="../../../../favicon.ico">
+
+
+<link href="" rel="alternate" type="application/rss+xml" title="Slim Theme Demo" />
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+  <h1 class="site-title"><a href="../../../../">Slim Theme Demo</a></h1>
+  <p class="site-tagline"></p>
+  <div class="nav">
+    <a class="nav-btn" href="#">
+      <span class="ci ci-burger"></span>
+    </a>
+    <ul class="nav-list">
+      
+      <li><a href="../../../../about/">About</a></li>
+       
+	  <li class="spacer">&ac;</li>
+
+      <li><a href="https://github.com/homerhanumat">Github</a></li> 
+      <li><a href="https://twitter.com/homerhanumat">Twitter</a></li> 
+      <li><a href="http://linkedin.com/in/homerwhite">LinkedIn</a></li>
+    </ul>
+  </div>
+</div>
+    <div class="content">
+      <div class="posts">
+        <div class="post">
+          <h2 class="post-title"><a href="../../../../2017/09/28/csc115-ch5-hw-help/">CSC115 Ch5 HW Help</a></h2>
+          <span class="post-date">Sep 28, 2017 </span>
+          <div class="post-content">
+            <p>Before beginning this assignment we must first take care of a couple housekeeping things in R.</p>
+<p>First you must load the package <code>TurtleGraphics</code></p>
+<pre class="r"><code>library(TurtleGraphics)</code></pre>
+<div id="exercise-1" class="section level2">
+<h2>Exercise 1</h2>
+<div id="the-problem" class="section level4">
+<h4>The Problem</h4>
+<p>Using the <code>TurtleGraphics</code> funciton write a function called ‘turtle_gon()’ that draws a regular polygon. The user should be able to specifiy the side-length and the number of sides. Usig your function draw a polygon with 12 sides, each having a length of 15 units. Make sure the polygon does not stray outside of the turtle’s field.</p>
+</div>
+<div id="hints-to-get-you-to-the-soulution" class="section level4">
+<h4>Hints to get you to the soulution</h4>
+<p>First remind yourself on how to right a function using <code>function()</code>. An example may be:</p>
+<pre class="r"><code>exampleFunc &lt;- function(n=&quot;How are you?&quot;){
+  cat(n)
+}</code></pre>
+<pre class="r"><code>exampleFunc() ## Testing the Function</code></pre>
+<pre><code>## How are you?</code></pre>
+<p>It works!</p>
+<p>Next think about the parameters that may need to be used in your function allowing users to change the side-length and the number of sides in their polygon.</p>
+<p>For the body of the function you may want to consider using a for loop. An example of this is:</p>
+<pre class="r"><code>turtle_init()  ##Always remember to initialize your turtle!
+for(i in 1:4){
+  turtle_forward(dist=35)
+  turtle_right(angle=90)
+}</code></pre>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-5"></span>
+<img src="../../../../post/2017-09-28-csc115-ch5-hw-help_files/figure-html/unnamed-chunk-5-1.png" alt="Square with equal sides of 35 units" width="80%" />
+<p class="caption">
+Figure 1: Square with equal sides of 35 units
+</p>
+</div>
+<p>This gives us a square with sides equal to 35 units!</p>
+<p>Thinking about what to do if we don’t know how many sides or their lengths:</p>
+<ul>
+<li>Instead of numbers, there will be variables.</li>
+<li>There may be a small formula for determining the size of the angle.</li>
+</ul>
+<p>Once you have your function made, make sure you think about what to do in order to keep the polygon within the field of the turtle!</p>
+</div>
+</div>
+<div id="exercise-2" class="section level2">
+<h2>Exercise 2</h2>
+<div id="the-problem-1" class="section level4">
+<h4>The problem</h4>
+<p>Write a function called <code>turtle_star()</code> where the user can specify the following:</p>
+<ul>
+<li>number of rays in a star</li>
+<li>length of rays</li>
+<li>color of rays</li>
+<li>line-type of rays</li>
+<li>line-width of rays</li>
+</ul>
+</div>
+<div id="hints-to-get-you-to-the-soulution-1" class="section level4">
+<h4>Hints to get you to the soulution</h4>
+<p>For looping will probably still be beneficial here!</p>
+<p>Think about variables that will remain the same throughout the entire loop. Shouldn’t those go before the for loop?</p>
+<p>When writing the function, it may help to map out each movement you are telling the turtle to do.</p>
+</div>
+</div>
+<div id="exercise-3" class="section level2">
+<h2>Exercise 3</h2>
+<div id="the-problem-2" class="section level4">
+<h4>The problem</h4>
+<p>Write a function called <code>turtle_rstar()</code> in which the lengths are not determined by the user, but instead vary randomly from 5 to 25 units.</p>
+</div>
+<div id="hints-to-get-you-to-the-solution" class="section level4">
+<h4>Hints to get you to the solution</h4>
+<p>Wasn’t there a function we read about in chapter 5 that pulled randomly from a specified set of numbers?</p>
+<p>What if we used that function: <code>runif()</code>?</p>
+<p>If I wanted two random numbers between 2 and 12 I could use the following code:</p>
+<pre class="r"><code>runif(2,2,12)  </code></pre>
+<pre><code>## [1] 2.607737 8.329312</code></pre>
+<p>Maybe we could try putting that into our function? Try it out!!!</p>
+</div>
+</div>
+<div id="exercise-4" class="section level2">
+<h2>Exercise 4</h2>
+<div id="the-problem-3" class="section level4">
+<h4>The problem</h4>
+<p>Make a new star function called <code>turtle_rstarColors()</code> that will behave like <code>turtle_rstar()</code>, except instead of the color being specified by the user, the ray-color should vary from one ray to another.</p>
+</div>
+<div id="hints-to-get-you-to-the-solution-1" class="section level4">
+<h4>Hints to get you to the solution</h4>
+<p>Recall a function we looked at in a previous chapter, <code>sample()</code>. Can’t this function randomly select values? What if we used this function to randomly assign a color to each ray in the star?</p>
+</div>
+</div>
+
+          </div>
+        </div>
+        <div class="pagination"> 
+          <a class="btn next " href="../../../../about/"> Next</a> 
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+  
+  <p>Powered by <a href="http://gohugo.io">Hugo</a>. This theme—Slim—is open sourced on <a href="https://github.com/zhe/hugo-theme-slim">Github</a>.</p>
+  
+</div>
+
+  </div>
+  <script src="../../../../js/slim.js"></script>
+  <script src="../../../../js/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  
+  
+  
+    
+  
+</body>
+
+</html>

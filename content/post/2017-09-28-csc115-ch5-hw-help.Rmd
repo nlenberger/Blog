@@ -1,0 +1,119 @@
+---
+title: CSC115 Ch5 HW Help
+author: Natalie Lenberger
+date: '2017-09-28'
+slug: csc115-ch5-hw-help
+categories:
+  - HW Help
+  - R
+tags:
+  - CSC115
+  - HW Help
+---
+
+```{r include=FALSE}
+library(TurtleGraphics)
+knitr::opts_chunk$set(fig.align = "center", out.width = "80%")
+```
+
+
+Before beginning this assignment we must first take care of a couple housekeeping things in R. 
+
+First you must load the package `TurtleGraphics`
+```{r eval=FALSE}
+library(TurtleGraphics)
+```
+
+## Exercise 1
+
+#### The Problem 
+
+Using the `TurtleGraphics` funciton write a function called 'turtle_gon()' that draws a regular polygon. The user should be able to specifiy the side-length and the number of sides. Usig your function draw a polygon with 12 sides, each having a length of 15 units. Make sure the polygon does not stray outside of the turtle's field. 
+
+#### Hints to get you to the soulution 
+
+First remind yourself on how to right a function using `function()`. An example may be:
+```{r, echo=TRUE}
+exampleFunc <- function(n="How are you?"){
+  cat(n)
+}
+```
+
+```{r}
+exampleFunc() ## Testing the Function
+```
+
+It works!
+
+Next think about the parameters that may need to be used in your function allowing users to change the side-length and the number of sides in their polygon.
+
+For the body of the function you may want to consider using a for loop.  An example of this is:
+```{r, fig.keep="last", echo=TRUE, fig.cap="Square with equal sides of 35 units"}
+turtle_init()  ##Always remember to initialize your turtle!
+for(i in 1:4){
+  turtle_forward(dist=35)
+  turtle_right(angle=90)
+}
+```
+
+This gives us a square with sides equal to 35 units!
+
+
+Thinking about what to do if we don't know how many sides or their lengths:
+
+* Instead of numbers, there will be variables.
+* There may be a small formula for determining the size of the angle.
+
+
+Once you have your function made, make sure you think about what to do in order to keep the polygon within the field of the turtle!
+
+
+## Exercise 2
+
+#### The problem
+Write a function called `turtle_star()` where the user can specify the following:
+ 
+  * number of rays in a star
+  * length of rays
+  * color of rays
+  * line-type of rays
+  * line-width of rays
+  
+#### Hints to get you to the soulution
+For looping will probably still be beneficial here!
+
+Think about variables that will remain the same throughout the entire loop. Shouldn't those go before the for loop?
+
+When writing the function, it may help to map out each movement you are telling the turtle to do. 
+
+
+## Exercise 3
+
+#### The problem
+Write a function called `turtle_rstar()` in which the lengths are not determined by the user, but instead vary randomly from 5 to 25 units.
+
+#### Hints to get you to the solution
+Wasn't there a function we read about in chapter 5 that pulled randomly from a specified set of numbers?
+
+What if we used that function: `runif()`?
+
+If I wanted two random numbers between 2 and 12 I could use the following code:
+```{r}
+runif(2,2,12)  
+```
+
+Maybe we could try putting that into our function?
+Try it out!!!
+
+
+## Exercise 4
+
+#### The problem
+Make a new star function called `turtle_rstarColors()` that will behave like `turtle_rstar()`, except instead of the color being specified by the user, the ray-color should vary from one ray to another.
+
+#### Hints to get you to the solution
+Recall a function we looked at in a previous chapter, `sample()`. Can't this function randomly select values? What if we used this function to randomly assign a color to each ray in the star?
+
+
+
+
