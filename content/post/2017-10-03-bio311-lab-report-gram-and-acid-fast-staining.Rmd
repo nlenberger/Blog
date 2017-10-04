@@ -3,8 +3,8 @@ title: "BIO311 Lab Report Gram and Acid Fast Staining"
 author: "Natalie Lenberger"
 date: '2017-10-03'
 output:
-  pdf_document: default
   word_document: default
+  pdf_document: default
 slug: bio311-lab-report-gram-and-acid-fast-staining
 tags:
 - Gram Staining

@@ -3,7 +3,7 @@ relativeurls = true
 theme = "hugo-theme-slim"
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Slim Theme Demo"
+title = "Natalie's Blog"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -14,9 +14,9 @@ title = "Slim Theme Demo"
   disqusShortname = ""
   
   # social
-  GithubID = "homerhanumat"
-  TwitterID = "homerhanumat"
-  LinkedInID = "homerwhite"
+  GithubID = "nlenberger"
+  TwitterID = "nlenberger"
+  LinkedInID = "nlenberger"
   
 [[menu.main]]
   name = "About"
