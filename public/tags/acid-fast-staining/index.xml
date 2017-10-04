@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Slim Theme Demo</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on Slim Theme Demo</description>
+    <title>Acid Fast Staining on Slim Theme Demo</title>
+    <link>/tags/acid-fast-staining/</link>
+    <description>Recent content in Acid Fast Staining on Slim Theme Demo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/acid-fast-staining/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,17 +18,6 @@
       
       <guid>/2017/10/03/bio311-lab-report-gram-and-acid-fast-staining/</guid>
       <description>Introduction In this lab, two types of differential staining were performed. The first was Gram staining and the second was Acid Fast. Gram staining is one of the most commonly used staining procedures used in microbiology. Gram staining can characterize bacteria into two groups: gram positive bacteria or gram negative bacteria. Gram postive bacteria stain violet while gram negative bacteria stain red. This is due to the peptidoglycan layers in the bacteria; a thicker layer allows for the retention of the stain.</description>
-    </item>
-    
-    <item>
-      <title>CSC115 Ch5 HW Help</title>
-      <link>/2017/09/28/csc115-ch5-hw-help/</link>
-      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/09/28/csc115-ch5-hw-help/</guid>
-      <description>Before beginning this assignment we must first take care of a couple housekeeping things in R.
-First you must load the package TurtleGraphics
-library(TurtleGraphics) Exercise 1 The Problem Using the TurtleGraphics funciton write a function called ‘turtle_gon()’ that draws a regular polygon. The user should be able to specifiy the side-length and the number of sides. Usig your function draw a polygon with 12 sides, each having a length of 15 units.</description>
     </item>
     
   </channel>

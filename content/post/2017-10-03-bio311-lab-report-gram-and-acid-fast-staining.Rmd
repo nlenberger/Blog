@@ -1,0 +1,40 @@
+---
+title: "BIO311 Lab Report Gram and Acid Fast Staining"
+author: "Natalie Lenberger"
+date: '2017-10-03'
+output: pdf_document
+slug: bio311-lab-report-gram-and-acid-fast-staining
+tags:
+- Gram Staining
+- Acid Fast Staining
+categories:
+- Microbiology
+- Lab Report
+---
+
+### Introduction
+
+  In this lab, two types of differential staining were performed. The first was Gram staining and the second was Acid Fast. Gram staining is one of the most commonly used staining procedures used in microbiology. Gram staining can characterize bacteria into two groups: gram positive bacteria or gram negative bacteria. Gram postive bacteria stain violet while gram negative bacteria stain red. This is due to the peptidoglycan layers in the bacteria; a thicker layer allows for the retention of the stain. Gram positive bacteria have a thick peptidoclycan layer in the walls of thier cell and gram negative bacteria have a thin peptidoglycan layer in the walls of their cell. The second type of differential staining performed was Acid Fast staining. This type of staining distinguishes organisms with waxy cell walls that do not decolorize when rinsed with acid alcohol. Bacteria that are considered acid-fast have a waxy substance in their cell walls called mycolic acid. This makes them impermeable to other staining procedures, such as Gram staining. 
+  
+  
+### Materials and Methods
+
+##### Gram Staining
+
+  Gram staining was performed on four types of bacteria. The bacteria used were: *Corynebacterium pseudodiphtheriticum, Neisseria subflava, Escherichia coli, Staphylococcus aureus, Mycrobacterium smegmatis,* and *Aquaspirillum serpens.* Each slide was first prepared by adding a small drop of water to the center of a glass slide. A small amount of bacteria, using a heat sterilized loop was then added to the drop and mixed. The drop was spread to the size of a quarter. Once the slide had air dried, it was then heat fixed using a bunsen burner. The slide was left to cool and then the staing process began. Crystial Violet was added to the smear for 30 seconds and was then washed for 3 seconds using tap water. Grams iodine was applied to the smear for 60 seconds and then rinsed with 95% ethanol for 10-15 seconds to decolorize. The ethanol was then washed off using tap water for 3 seconds. Safranin was applied to the smear for 60 seconds and then again washed for 3 seconds using tap water. The slide was then left to drain and dry and the was observed under a microscope and the results under oil immersion were drawn. This was done six times, each time using a different bacteria. 
+  
+##### Acid Fast Staining
+
+  The method used in this experiment for acid fast staining was the Ziehl-Neelson method. A mixed smear of *Mycrobacterium smegmatis* and *Staphylococcus aureus* was prepared. This was prepared in the same way the slides for gram staining were prepared, there were just two types of bacteria added to the drop of water. Once the smear was dry, the slide was taken to the hood where carbolfuchsin was added to smear and heated over boiling water for 5 minutes. As the stain started to evaporate, more was added. Once te 5 minutes was up, the stain was discarded into a plastic bottle under the hood and the smear was decolorized using acid alcohol for 10-15 seconds. The counter stain used for this procedure was methylene blue; this stain was applied to the stain for 30 seconds and then washed with tap water for 3 seconds. Once the slide was dry, it was observed under a microscope and the reults under oil immersion were drawn.  
+  
+  
+### Results
+
+  The results of the Gram Staining procedure were straight forward. *C.psedodiphtheriticum, S.aureus,* and *M.smegmatis* are all gram positive bacteria (Figures 1, 4 and 6). This means the peptidoglycan layers in the walls of their cells are all thick. While *N.subflava, E.coli,* and *A.serpens* are all gram negative bacteria, meaning the peptidoglycan layers in the walls of their cells are all thin (Figures 2, 3 and 5).
+  The results of the Acid Fast staining showed that *M.smegmatis* is an acid fast bacteria; while, *S.aureus* is a non-acid fast bacteria (Figure 7). This means that *M.smegmatis* has as waxy cell wall, while *S.aureus* does not. 
+  
+
+### Discussion
+
+  The overall purpose of this experiment was to learn the types of differential staining and knowing when a bacteria is gram negative, gram positive, or acid fast. In doing this experiment, we also learned what made each bacteria fall under a certain category and why. These procedures are useful to microbiologists when differentiating one type of bacteria from the other. These procedures also tell a bit about the characteristics of each bacteria. 
+

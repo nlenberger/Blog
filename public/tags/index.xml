@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Slim Theme Demo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Acid Fast Staining</title>
+      <link>/tags/acid-fast-staining/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/acid-fast-staining/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Csc115</title>
@@ -17,6 +26,15 @@
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/csc115/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gram Staining</title>
+      <link>/tags/gram-staining/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gram-staining/</guid>
       <description></description>
     </item>
     
