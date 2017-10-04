@@ -2,7 +2,8 @@
 title: CSC115 Ch5 HW Help
 author: Natalie Lenberger
 date: '2017-09-28'
-slug: csc115-ch5-hw-help
+slug: csc115-ch5-hw-help 
+comments: true
 categories:
   - HW Help
   - R
