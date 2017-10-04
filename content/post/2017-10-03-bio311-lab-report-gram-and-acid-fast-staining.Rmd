@@ -27,6 +27,7 @@ categories:
   
 ### Results
   The results of the Gram Staining procedure were straight forward. *C.psedodiphtheriticum, S.aureus,* and *M.smegmatis* are all gram positive bacteria (Figures 1, 4 and 6). This means the peptidoglycan layers in the walls of their cells are all thick. While *N.subflava, E.coli,* and *A.serpens* are all gram negative bacteria, meaning the peptidoglycan layers in the walls of their cells are all thin (Figures 2, 3 and 5).
+  
   The results of the Acid Fast staining showed that *M.smegmatis* is an acid fast bacteria; while, *S.aureus* is a non-acid fast bacteria (Figure 7). This means that *M.smegmatis* has as waxy cell wall, while *S.aureus* does not. 
   
 
