@@ -11,7 +11,7 @@ title = "Natalie's Blog"
 [Params]
   math = false
   summary = true
-  disqusShortname = ""
+  disqusShortname = "nlenblog"
   
   # social
   GithubID = "nlenberger"
