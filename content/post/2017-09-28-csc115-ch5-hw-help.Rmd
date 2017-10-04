@@ -84,6 +84,22 @@ For looping will probably still be beneficial here!
 
 Think about variables that will remain the same throughout the entire loop. Shouldn't those go before the for loop?
 
+```{r fig.keep="last", echo=TRUE, fig.cap="Star with 6 red rays at length 20"}
+turtle_init(mode="clip") #Always initialize
+turtle_col("red") 
+turtle_lty(1)
+turtle_lwd(3)
+for (i in 1:6) {
+  turtle_forward(20)
+  turtle_up()
+  turtle_backward(20)
+  turtle_right(360/6)
+  turtle_down()
+}
+```
+
+Notice the three functions that come before the loop! In your function, those will remain the same value and therefore do not need to be evaluated with each pass of your loop.
+
 When writing the function, it may help to map out each movement you are telling the turtle to do. 
 
 
@@ -102,7 +118,23 @@ If I wanted two random numbers between 2 and 12 I could use the following code:
 runif(2,2,12)  
 ```
 
-Maybe we could try putting that into our function?
+Maybe we could try putting that into the body of our function?
+```{r, fig.keep="last", echo=TRUE, fig.cap="Star with 6 red rays at varying lengths from 6 to 24"}
+turtle_init(mode="clip")
+turtle_col("red") 
+turtle_lty(1)
+turtle_lwd(3)
+for (i in 1:6) {
+  len <- runif(1, 6, 24)
+  turtle_forward(len)
+  turtle_up()
+  turtle_backward(len)
+  turtle_right(360/6)
+  turtle_down()
+}
+```
+
+
 Try it out!!!
 
 
@@ -113,6 +145,27 @@ Make a new star function called `turtle_rstarColors()` that will behave like `tu
 
 #### Hints to get you to the solution
 Recall a function we looked at in a previous chapter, `sample()`. Can't this function randomly select values? What if we used this function to randomly assign a color to each ray in the star?
+
+Also take a look at the vector `colors()`. These are all the possibilites that your function should draw from in order to give each a ray a different color. 
+
+Now that the color is varying per ray, we may need to think about moving `turtle_col` into our for loop.
+
+```{r, fig.keep="last", echo=TRUE, fig.cap="Star with 6 rays at varying lengths from 6 to 24 and varying colors from the vector of all colors given by colors()"}
+turtle_init(mode="clip")
+  turtle_lty(1)
+  turtle_lwd(3)
+  for(i in 1:6) {
+    color <- sample(colors(),1)
+    len <- runif(1,6,24)
+    turtle_col(color)
+    turtle_forward(len)
+    turtle_up()
+    turtle_backward(len)
+    turtle_right(360/6)
+    turtle_down()
+  }
+```
+
 
 
 

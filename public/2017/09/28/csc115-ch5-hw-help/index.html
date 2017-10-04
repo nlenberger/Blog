@@ -103,6 +103,24 @@ Figure 1: Square with equal sides of 35 units
 <h4>Hints to get you to the soulution</h4>
 <p>For looping will probably still be beneficial here!</p>
 <p>Think about variables that will remain the same throughout the entire loop. Shouldn’t those go before the for loop?</p>
+<pre class="r"><code>turtle_init(mode=&quot;clip&quot;) #Always initialize
+turtle_col(&quot;red&quot;) 
+turtle_lty(1)
+turtle_lwd(3)
+for (i in 1:6) {
+  turtle_forward(20)
+  turtle_up()
+  turtle_backward(20)
+  turtle_right(360/6)
+  turtle_down()
+}</code></pre>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-6"></span>
+<img src="../../../../post/2017-09-28-csc115-ch5-hw-help_files/figure-html/unnamed-chunk-6-1.png" alt="Star with 6 red rays at length 20" width="80%" />
+<p class="caption">
+Figure 2: Star with 6 red rays at length 20
+</p>
+</div>
+<p>Notice the three functions that come before the loop! In your function, those will remain the same value and therefore do not need to be evaluated with each pass of your loop.</p>
 <p>When writing the function, it may help to map out each movement you are telling the turtle to do.</p>
 </div>
 </div>
@@ -118,8 +136,27 @@ Figure 1: Square with equal sides of 35 units
 <p>What if we used that function: <code>runif()</code>?</p>
 <p>If I wanted two random numbers between 2 and 12 I could use the following code:</p>
 <pre class="r"><code>runif(2,2,12)  </code></pre>
-<pre><code>## [1] 2.607737 8.329312</code></pre>
-<p>Maybe we could try putting that into our function? Try it out!!!</p>
+<pre><code>## [1]  7.953147 10.912292</code></pre>
+<p>Maybe we could try putting that into the body of our function?</p>
+<pre class="r"><code>turtle_init(mode=&quot;clip&quot;)
+turtle_col(&quot;red&quot;) 
+turtle_lty(1)
+turtle_lwd(3)
+for (i in 1:6) {
+  len &lt;- runif(1, 6, 24)
+  turtle_forward(len)
+  turtle_up()
+  turtle_backward(len)
+  turtle_right(360/6)
+  turtle_down()
+}</code></pre>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-8"></span>
+<img src="../../../../post/2017-09-28-csc115-ch5-hw-help_files/figure-html/unnamed-chunk-8-1.png" alt="Star with 6 red rays at varying lengths from 6 to 24" width="80%" />
+<p class="caption">
+Figure 3: Star with 6 red rays at varying lengths from 6 to 24
+</p>
+</div>
+<p>Try it out!!!</p>
 </div>
 </div>
 <div id="exercise-4" class="section level2">
@@ -131,6 +168,27 @@ Figure 1: Square with equal sides of 35 units
 <div id="hints-to-get-you-to-the-solution-1" class="section level4">
 <h4>Hints to get you to the solution</h4>
 <p>Recall a function we looked at in a previous chapter, <code>sample()</code>. Can’t this function randomly select values? What if we used this function to randomly assign a color to each ray in the star?</p>
+<p>Also take a look at the vector <code>colors()</code>. These are all the possibilites that your function should draw from in order to give each a ray a different color.</p>
+<p>Now that the color is varying per ray, we may need to think about moving <code>turtle_col</code> into our for loop.</p>
+<pre class="r"><code>turtle_init(mode=&quot;clip&quot;)
+  turtle_lty(1)
+  turtle_lwd(3)
+  for(i in 1:6) {
+    color &lt;- sample(colors(),1)
+    len &lt;- runif(1,6,24)
+    turtle_col(color)
+    turtle_forward(len)
+    turtle_up()
+    turtle_backward(len)
+    turtle_right(360/6)
+    turtle_down()
+  }</code></pre>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-9"></span>
+<img src="../../../../post/2017-09-28-csc115-ch5-hw-help_files/figure-html/unnamed-chunk-9-1.png" alt="Star with 6 rays at varying lengths from 6 to 24 and varying colors from the vector of all colors given by colors()" width="80%" />
+<p class="caption">
+Figure 4: Star with 6 rays at varying lengths from 6 to 24 and varying colors from the vector of all colors given by colors()
+</p>
+</div>
 </div>
 </div>
 
