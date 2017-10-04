@@ -53,7 +53,7 @@
 <h2>Exercise 1</h2>
 <div id="the-problem" class="section level4">
 <h4>The Problem</h4>
-<p>Using the <code>TurtleGraphics</code> funciton write a function called ‘turtle_gon()’ that draws a regular polygon. The user should be able to specifiy the side-length and the number of sides. Usig your function draw a polygon with 12 sides, each having a length of 15 units. Make sure the polygon does not stray outside of the turtle’s field.</p>
+<p>Using the <code>TurtleGraphics</code> function write a function called ‘turtle_gon()’ that draws a regular polygon. The user should be able to specify the side-length and the number of sides. Using your function draw a polygon with 12 sides, each having a length of 15 units. Make sure the polygon does not stray outside of the turtle’s field.</p>
 </div>
 <div id="hints-to-get-you-to-the-soulution" class="section level4">
 <h4>Hints to get you to the soulution</h4>
@@ -136,7 +136,7 @@ Figure 2: Star with 6 red rays at length 20
 <p>What if we used that function: <code>runif()</code>?</p>
 <p>If I wanted two random numbers between 2 and 12 I could use the following code:</p>
 <pre class="r"><code>runif(2,2,12)  </code></pre>
-<pre><code>## [1] 6.496203 4.643341</code></pre>
+<pre><code>## [1] 7.276810 6.757454</code></pre>
 <p>Maybe we could try putting that into the body of our function?</p>
 <pre class="r"><code>turtle_init(mode=&quot;clip&quot;)
 turtle_col(&quot;red&quot;) 
@@ -168,7 +168,7 @@ Figure 3: Star with 6 red rays at varying lengths from 6 to 24
 <div id="hints-to-get-you-to-the-solution-1" class="section level4">
 <h4>Hints to get you to the solution</h4>
 <p>Recall a function we looked at in a previous chapter, <code>sample()</code>. Can’t this function randomly select values? What if we used this function to randomly assign a color to each ray in the star?</p>
-<p>Also take a look at the vector <code>colors()</code>. These are all the possibilites that your function should draw from in order to give each a ray a different color.</p>
+<p>Also take a look at the vector <code>colors()</code>. These are all the possibilities that your function should draw from in order to give each a ray a different color.</p>
 <p>Now that the color is varying per ray, we may need to think about moving <code>turtle_col</code> into our for loop.</p>
 <pre class="r"><code>turtle_init(mode=&quot;clip&quot;)
   turtle_lty(1)

@@ -29,7 +29,7 @@ library(TurtleGraphics)
 
 #### The Problem 
 
-Using the `TurtleGraphics` funciton write a function called 'turtle_gon()' that draws a regular polygon. The user should be able to specifiy the side-length and the number of sides. Usig your function draw a polygon with 12 sides, each having a length of 15 units. Make sure the polygon does not stray outside of the turtle's field. 
+Using the `TurtleGraphics` function write a function called 'turtle_gon()' that draws a regular polygon. The user should be able to specify the side-length and the number of sides. Using your function draw a polygon with 12 sides, each having a length of 15 units. Make sure the polygon does not stray outside of the turtle's field. 
 
 #### Hints to get you to the soulution 
 
@@ -147,7 +147,7 @@ Make a new star function called `turtle_rstarColors()` that will behave like `tu
 #### Hints to get you to the solution
 Recall a function we looked at in a previous chapter, `sample()`. Can't this function randomly select values? What if we used this function to randomly assign a color to each ray in the star?
 
-Also take a look at the vector `colors()`. These are all the possibilites that your function should draw from in order to give each a ray a different color. 
+Also take a look at the vector `colors()`. These are all the possibilities that your function should draw from in order to give each a ray a different color. 
 
 Now that the color is varying per ray, we may need to think about moving `turtle_col` into our for loop.
 
