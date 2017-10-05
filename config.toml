@@ -1,7 +1,7 @@
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 relativeurls = true
 theme = "hugo-theme-slim"
-baseURL = "http://example.org/"
+baseURL = "https://nlenblog.netlify.com/"
 languageCode = "en-us"
 title = "Natalie's Blog"
 

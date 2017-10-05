@@ -1,3 +1,4 @@
+~%2FBlog%2F.gitignore="3244140A"
 ~%2FBlog%2FBIO311labReportGramandAcidStaining.Rmd="CFAF2C7A"
 ~%2FBlog%2Fconfig.toml="AC64E6BD"
 ~%2FBlog%2Fcontent%2Fabout.md="7A7EA5C0"
@@ -5,4 +6,5 @@
 ~%2FBlog%2Fcontent%2Fpost%2F2017-09-27-blog-practice.Rmd="73139B10"
 ~%2FBlog%2Fcontent%2Fpost%2F2017-09-28-csc115-ch5-hw-help.Rmd="8FC0C9A0"
 ~%2FBlog%2Fcontent%2Fpost%2F2017-10-03-bio311-lab-report-gram-and-acid-fast-staining.Rmd="C8BC97C7"
+~%2FBlog%2Fnetlify.toml="718F8DBE"
 ~%2Fsubmit%2FCSC470_Ch05_HW.R="C6FF7D8B"
